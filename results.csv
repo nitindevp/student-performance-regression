@@ -1,0 +1,13 @@
+case,model,cv_rmse,test_rmse,test_r2
+"with G1, G2",Baseline (average),,4.55,-0.01
+"with G1, G2",Linear Regression,1.987,2.378,0.724
+"with G1, G2",Ridge,1.974,2.357,0.729
+"with G1, G2",Decision Tree,1.823,2.49,0.698
+"with G1, G2",Random Forest,1.503,1.949,0.815
+"with G1, G2",Gradient Boosting,1.575,2.003,0.804
+"without G1, G2",Baseline (average),,4.55,-0.01
+"without G1, G2",Linear Regression,4.607,4.196,0.141
+"without G1, G2",Ridge,4.537,4.179,0.148
+"without G1, G2",Decision Tree,4.51,4.557,-0.013
+"without G1, G2",Random Forest,3.967,3.935,0.245
+"without G1, G2",Gradient Boosting,4.029,4.027,0.209
